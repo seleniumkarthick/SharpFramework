@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10680" started-at="2018-04-15T12:07:55Z" finished-at="2018-04-15T12:08:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10680" started-at="2018-04-15T12:07:55Z" finished-at="2018-04-15T12:08:06Z">
+      <class name="com.sharp.login.LoginUsers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sharp.login.LoginUsers@17d99928]" name="setup" is-config="true" duration-ms="8767" started-at="2018-04-15T17:37:55Z" finished-at="2018-04-15T17:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testing_01()[pri:0, instance:com.sharp.login.LoginUsers@17d99928]" name="testing_01" duration-ms="128" started-at="2018-04-15T17:38:04Z" description="To validate logo in login page" finished-at="2018-04-15T17:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing_01 -->
+        <test-method status="PASS" signature="testing_02()[pri:0, instance:com.sharp.login.LoginUsers@17d99928]" name="testing_02" duration-ms="1767" started-at="2018-04-15T17:38:04Z" finished-at="2018-04-15T17:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing_02 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sharp.login.LoginUsers@17d99928]" name="teardown" is-config="true" duration-ms="0" started-at="2018-04-15T17:38:06Z" finished-at="2018-04-15T17:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sharp.login.LoginUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
