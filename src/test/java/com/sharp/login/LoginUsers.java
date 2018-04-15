@@ -12,7 +12,7 @@ public class LoginUsers extends BasePage{
 		boolean isLogoPresent=driver.findElement(By.cssSelector("img.responsive-img.paddings")).isDisplayed();
 		Assert.assertEquals(isLogoPresent, true);
 	}
-	
+	 
 	@Test
 	public void testing_02(){
 		

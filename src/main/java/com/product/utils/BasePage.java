@@ -15,6 +15,7 @@ public class BasePage extends CommonFunctions {
 	static Properties prop;
 	
 	public static String LOGIN_USERNAME;
+	public static String LOGIN_PASSWORD;
 	public static String GECKO_DRIVER;
 	public static String APPLICATION_URL;
 	
@@ -26,6 +27,7 @@ public class BasePage extends CommonFunctions {
 	    InputStream stream = loader.getResourceAsStream("uat\\application.properties");
 	    prop.load(stream);  
 	    LOGIN_USERNAME=prop.getProperty("admin_username");
+	    LOGIN_PASSWORD=prop.getProperty("admin_password");
 	    GECKO_DRIVER=prop.getProperty("gecko_driver");
 	    APPLICATION_URL=prop.getProperty("url");
 	    
