@@ -24,7 +24,7 @@ public class LoginUsers extends BasePage{
 		//password
 		driver.findElement(By.id("j_password")).click();
 		driver.findElement(By.id("j_password")).clear();
-		driver.findElement(By.id("j_password")).sendKeys("Sharp@6677");
+		driver.findElement(By.id("j_password")).sendKeys(LOGIN_PASSWORD);
 		
 		//submit
 		driver.findElement(By.name("btnlogin")).submit();
