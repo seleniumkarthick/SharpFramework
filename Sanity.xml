@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Sharp Sanity Suite" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name="com.sharp.login.LoginUsers" />
+    </classes>
+  </test>
+ 
+  
+</suite>
